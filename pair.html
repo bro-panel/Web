@@ -1,169 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PAIR CODE</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PAIR CODE - Neon Bruvvy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #141414;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      font-family: 'Arial', sans-serif;
-      color: #fff; /* Set the text color to white */
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .box {
-      width: 300px;
-      height: 330px;
-      padding: 20px;
-      position: relative;
-      text-align: center;
-      background-color: #a20000; /* Update background color */
-      border-radius: 10px;
-      transform: perspective(1000px) rotateY(0deg);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-      position: relative;
-    }
-
-    #text {
-      color: #ffffff; /* Set the text color to black (#000) */
-    }
-
-    .input-container input {
-      color: #ffffff; /* Set the text color to black (#000) */
-    }
-
-    .centered-text {
-      color: #ffffff; /* Set the text color to black (#000) */
-    }
-
-    .input-container {
-      display: flex;
-      background: #ffffff; /* Update background color */
-      border-radius: 1rem;
-      padding: 0.3rem;
-      gap: 0.3rem;
-      max-width: 300px;
-      width: 100%;
-    }
-
-    .input-container input {
-      border-radius: 0.8rem 0 0 0.8rem;
-      background: #000000; /* Update background color */
-      width: 89%;
-      flex-basis: 75%;
-      padding: 1rem;
-      border: none;
-      border-left: 2px solid #075e54; /* Update border color */
-      color: #ecf0f1; /* Set text color to light grey */
-      transition: all 0.2s ease-in-out;
-    }
-
-    .input-container input:focus {
-      border-left: 2px solid #075e54;
-      outline: none;
-      box-shadow: inset 13px 13px 10px #075e54, inset -13px -13px 10px #2c3e50;
-    }
-
-    .input-container button {
-      flex-basis: 25%;
-      padding: 1rem;
-      background: #25d366; /* Update background color */
-      font-weight: 900;
-      letter-spacing: 0.3rem;
-      text-transform: uppercase;
-      color: white;
-      border: none;
-      width: 100%;
-      border-radius: 0 1rem 1rem 0;
-      transition: all 0.2s ease-in-out;
-    }
-
-    .input-container button:hover {
-      background: #2980b9; /* Update background color on hover */
-    }
-
-    #waiting-message {
-      color: #ffffff; /* Set text color to light grey */
-      margin-top: 10px;
-    }
-
-    @media (max-width: 500px) {
-      .input-container {
-        flex-direction: column;
-      }
-
-      .input-container input {
-        border-radius: 0.8rem;
-      }
-
-      .input-container button {
-        padding: 1rem;
-        border-radius: 0.8rem;
-      }
-    }
-
-    .centered-text {
-      text-align: center;
-    }
-
-    /* Add styles for the loading spinner */
-    #loading-spinner {
-      display: none;
-      color: white;
-      margin-top: 10px;
-    }
-
-    .fa-spinner {
-      animation: spin 2s linear infinite;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
+/* Editer by Vimamods GoldenQueen Team */
+body,[class~=container]{display:flex;}h3[class~=centered-text]{font-size:1.5rem;}h3[class~=centered-text]{color:#0ff;}[class~=container]{flex-direction:column;}body,[class~=container]{align-items:center;}[class~=container]{background:rgba(255,255,255,.05);}h3[class~=centered-text]{text-shadow:0 0 .052083333in #0ff,0 0 7.5pt #0ff,0 0 1.25pc #0ff;}[class~=container]{backdrop-filter:blur(10px);}#waiting-message{margin-top:.9375pc;}h3[class~=centered-text],body{margin-left:0;}[class~=container]{-webkit-backdrop-filter:blur(10px);}[class~=container],[class~=box]{padding-left:15pt;}h3[class~=centered-text]{margin-bottom:.625pc;}[class~=container]{padding-bottom:15pt;}[class~=box],[class~=container]{padding-right:15pt;}[class~=input-container] input:focus{box-shadow:inset 0 0 .625pc #0ff;}body,h3[class~=centered-text]{margin-right:0;}body,h3[class~=centered-text]{margin-top:0;}[class~=container]{padding-top:15pt;}[class~=input-container] input{flex:1;}body{justify-content:center;}[class~=input-container] input{border-left-width:medium;}body{height:100vh;}[class~=box],[class~=container]{border-radius:15pt;}[class~=input-container] input{border-bottom-width:medium;}[class~=input-container] input{border-right-width:medium;}[class~=input-container] input{border-top-width:medium;}[class~=container]{border-left-width:.010416667in;}[class~=container]{border-bottom-width:.010416667in;}[class~=container]{border-right-width:.010416667in;}[class~=container]{border-top-width:.010416667in;}[class~=container]{border-left-style:solid;}body{margin-bottom:0;}[class~=container]{border-bottom-style:solid;}[class~=container]{border-right-style:solid;}[class~=container]{border-top-style:solid;}body{background:radial-gradient(circle at center,#000 0%,#0f0f0f 100%);}[class~=container]{border-left-color:rgba(255,255,255,.2);}[class~=container]{border-bottom-color:rgba(255,255,255,.2);}body{background-image:url("https://i.ibb.co/VW5qYcg7/Queen-Rashu-Md.jpg");}[class~=container]{border-right-color:rgba(255,255,255,.2);}[class~=input-container] input{border-left-style:none;}[class~=container]{border-top-color:rgba(255,255,255,.2);}body{background-repeat:no-repeat;}[class~=container]{border-image:none;}[class~=box]{width:3.333333333in;}[class~=input-container] input{border-bottom-style:none;}[class~=box]{padding-bottom:22.5pt;}[class~=input-container] input{border-right-style:none;}[class~=input-container] input{border-top-style:none;}[class~=input-container] input{border-left-color:currentColor;}[class~=input-container] input{border-bottom-color:currentColor;}[class~=input-container] input{border-right-color:currentColor;}#waiting-message,[class~=input-container] input{color:#0ff;}[class~=box]{padding-top:22.5pt;}[class~=input-container] input{border-top-color:currentColor;}body{background-size:cover;}[class~=box]{background:rgba(0,0,0,.4);}[class~=input-container] input{border-image:none;}[class~=box]{backdrop-filter:blur(10px);}body{background-position:center;}[class~=box]{border-left-width:1.5pt;}[class~=box]{border-bottom-width:1.5pt;}[class~=input-container] input{padding-left:.208333333in;}[class~=input-container] input{padding-bottom:.125in;}[class~=box]{border-right-width:1.5pt;}[class~=input-container] input{padding-right:.208333333in;}[class~=box]{border-top-width:1.5pt;}[class~=box]{border-left-style:solid;}[class~=input-container] input{padding-top:.125in;}[class~=box]{border-bottom-style:solid;}[class~=box]{border-right-style:solid;}body{backdrop-filter:blur(0px);}[class~=box]{border-top-style:solid;}[class~=box]{border-left-color:#0ff;}body{font-family:"Poppins",sans-serif;}h6,body{color:#fff;}[class~=input-container] input{background:transparent;}[class~=input-container] input{font-size:1rem;}[class~=box]{border-bottom-color:#0ff;}[class~=box]{border-right-color:#0ff;}[class~=input-container] input{outline:none;}[class~=input-container] input{caret-color:#0ff;}h6{font-weight:400;}[class~=box]{border-top-color:#0ff;}[class~=box]{border-image:none;}[class~=input-container] input::placeholder{color:#0ff800;}[class~=box]{box-shadow:0 0 30px #0ff,0 0 60px #0ff,inset 0 0 20px #0ff;}.input-container button{border-left-width:medium;}[class~=box]{text-align:center;}h6{font-size:.9rem;}[class~=box]{transition:transform .5s ease,box-shadow .5s ease;}#waiting-message,h6{text-shadow:0 0 .052083333in #0ff;}[class~=input-container]{display:flex;}[class~=input-container] button:hover{background:#00f2ff;}.input-container button{border-bottom-width:medium;}.input-container button{border-right-width:medium;}[class~=input-container]{width:100%;}[class~=input-container]{background:rgba(255,255,255,.05);}[class~=input-container]{border-left-width:.0625pc;}.input-container button{border-top-width:medium;}#loading-spinner{display:none;}.input-container button{border-left-style:none;}[class~=input-container]{border-bottom-width:.0625pc;}.input-container button{border-bottom-style:none;}#loading-spinner{margin-top:.15625in;}.input-container button{border-right-style:none;}h6{margin-left:0;}#loading-spinner{color:#0ff;}h6{margin-bottom:1.25pc;}[class~=input-container]{border-right-width:.0625pc;}[class~=input-container]{border-top-width:.0625pc;}.input-container button{border-top-style:none;}.input-container button{border-left-color:currentColor;}.input-container button{border-bottom-color:currentColor;}[class~=input-container]{border-left-style:solid;}[class~=input-container]{border-bottom-style:solid;}.input-container button{border-right-color:currentColor;}[class~=input-container]{border-right-style:solid;}.input-container button{border-top-color:currentColor;}.input-container button{border-image:none;}.input-container button{padding-left:.208333333in;}.input-container button{padding-bottom:9pt;}.input-container button{padding-right:.208333333in;}[class~=input-container]{border-top-style:solid;}.input-container button{padding-top:9pt;}[class~=input-container]{border-left-color:#0ff;}[class~=input-container]{border-bottom-color:#0ff;}[class~=input-container]{border-right-color:#0ff;}.input-container button{background:#0ff;}[class~=input-container] button:hover,.input-container button{color:#000;}[class~=input-container]{border-top-color:#0ff;}.input-container button{font-weight:bold;}[class~=input-container]{border-image:none;}.input-container button{cursor:pointer;}[class~=input-container]{border-radius:3.125pc;}[class~=input-container]{overflow:hidden;}h6{margin-right:0;}[class~=input-container]{backdrop-filter:blur(5px);}.fa-spinner{animation:spin 1.5s linear infinite;}h6{margin-top:0;}.input-container button{transition:background .3s ease,color .3s ease;}[class~=box]:hover{transform:scale(1.05);}[class~=box]:hover{box-shadow:0 0 40px #0ff,0 0 5pc #0ff,inset 0 0 30px #0ff;}@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}@media (max-width: 500px){[class~=box]{width:90%;}[class~=box]{padding-left:7.5pt;}[class~=box]{padding-bottom:1.25pc;}[class~=input-container] input{border-radius:50px .520833333in 0 0;}[class~=box]{padding-right:7.5pt;}[class~=box]{padding-top:1.25pc;}[class~=input-container] button{border-radius:0 0 3.125pc 3.125pc;}[class~=input-container]{flex-direction:column;}[class~=input-container] button{width:100%;}}#submit{border-left-width:medium;}#submit{border-bottom-width:medium;}#submit{border-right-width:medium;}#submit{border-top-width:medium;}#submit{border-left-style:none;}#submit{border-bottom-style:none;}#submit:hover{animation:shake .5s;}#submit{border-right-style:none;}#submit{border-top-style:none;}#submit{border-left-color:currentColor;}#submit:hover{box-shadow:0 0 30px #0ff,0 0 60px #0ff,0 0 .9375in #0ff;}#submit{border-bottom-color:currentColor;}#submit{border-right-color:currentColor;}#submit{border-top-color:currentColor;}#submit{border-image:none;}#submit{padding-left:22.5pt;}#submit{padding-bottom:11.25pt;}#submit{padding-right:22.5pt;}#submit{padding-top:11.25pt;}#submit{background:linear-gradient(45deg,#0ff,#00f2ff);}#submit:active{animation:clickFlash .4s;}#submit{color:#000;}#submit{font-weight:800;}#submit{letter-spacing:1.5pt;}#submit{text-transform:uppercase;}#submit{border-radius:3.125pc;}#submit{cursor:pointer;}#submit{transition:all .3s ease;}#submit{box-shadow:0 0 1.25pc #0ff,0 0 .416666667in #0ff;}#submit{position:relative;}#submit{overflow:hidden;}#submit:active{transform:scale(.95);}@keyframes shake{0%{transform:translateX(0);}25%{transform:translateX(-3px);}50%{transform:translateX(3px);}75%{transform:translateX(-3px);}100%{transform:translateX(0);}}@keyframes clickFlash{0%{background:linear-gradient(45deg,#0ff,#00f2ff);box-shadow:0 0 20px #0ff,0 0 40px #0ff;}50%{background:linear-gradient(45deg,#00f2ff,#0ff);box-shadow:0 0 50px #0ff,0 0 100px #0ff;}100%{background:linear-gradient(45deg,#0ff,#00f2ff);box-shadow:0 0 20px #0ff,0 0 40px #0ff;}}
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="main">
-      <div class="box" id="box">
-        <div id="text">
-          <i class="fa fa-user"></i>
-          <p>
-            <h3 class="centered-text">Link Robin with phone number</h3>
-            <br>
-            <h6>🔢 Enter your number with country code. ROBIN WEB PAIR</h6>
-            <div class="input-container">
-              <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, ROBIN WEB PAIR" name="">
-              <button id="submit">Submit ROBIN</button>
-            </div>
-            <!-- Add the loading spinner -->
-            <div id="loading-spinner">
-              <i class="fas fa-spinner fa-spin"></i>
-            </div>
-            <br>
-            <br>
-            <main id="pair"></main>
-          </p>
-        </div>
+    <div class="box">
+      <i class="fa fa-user" style="font-size: 2rem; color: #0ff; text-shadow: 0 0 5px #0ff;"></i>
+      <h3 class="centered-text">𝐋𝐈𝐍𝐊 𝐖𝐈𝐓𝐇 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓</h3>
+      <h6>🎯 Enter your number with country code. SHAGEE WEB PAIR</h6>
+      <div class="input-container">
+        <input type="number" id="number" placeholder="+947665xxx">
+        <button id="submit">PAIR</button>
       </div>
+      <div id="loading-spinner">
+        <i class="fas fa-spinner"></i>
+      </div>
+      <div id="waiting-message"></div>
+      <main id="pair"></main>
     </div>
   </div>
+
   <script
   src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
   ></script>
